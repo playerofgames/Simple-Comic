@@ -954,11 +954,11 @@ typedef struct {
 			
 			if (deltaX > 0.0)
 			{
-				[sessionController pageLeft: self];
+				[sessionController pageRight: self];
 			}
 			else if (deltaX < 0.0)
 			{
-				[sessionController pageRight: self];
+				[sessionController pageLeft: self];
 			}
 		}
 	}
@@ -1460,11 +1460,11 @@ typedef struct {
 {
 	if ([event deltaX] == 1)
 	{
-		[sessionController pageLeft: self];
+		[sessionController pageRight: self];
 	}
 	else if ([event deltaX] == -1)
 	{
-		[sessionController pageRight: self];
+		[sessionController pageLeft: self];
 	}
 }
 

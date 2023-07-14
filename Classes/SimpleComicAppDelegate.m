@@ -202,7 +202,7 @@ static NSArray<NSNumber*> * allAvailableStringEncodings(void)
 		  TSSTBackgroundColor: [NSKeyedArchiver archivedDataWithRootObject: [NSColor whiteColor] requiringSecureCoding: YES error: NULL],
 		  TSSTConstrainScale: @YES,
 		  TSSTWindowAutoResize: @YES,
-		  TSSTEnableSwipe: @NO,
+		  TSSTEnableSwipe: @YES,
 		  TSSTLoupeDiameter: @500,
 		  TSSTLoupePower: @2.0f,
 		  TSSTLonelyFirstPage: @YES,
